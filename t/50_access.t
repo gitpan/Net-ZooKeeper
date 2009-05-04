@@ -1,10 +1,12 @@
-# Apache Net::ZooKeeper Perl extension for Apache ZooKeeper
+# Net::ZooKeeper - Perl extension for Apache ZooKeeper
 #
-# Copyright 2009 Chris Darroch
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
 #
 #   http://www.apache.org/licenses/LICENSE-2.0
 #
@@ -202,7 +204,7 @@ SKIP: {
         push @{$digest_acl}, {
             'perms'  => (ZOO_PERM_CREATE | ZOO_PERM_DELETE),
             'scheme' => 'host',
-            'id'     => 'foo.bar'
+            'id'     => 'foo.bar.123'
         };
 
         $ret = $zkh->set_acl($acl_node_path, $digest_acl);

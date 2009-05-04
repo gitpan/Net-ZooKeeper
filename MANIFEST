@@ -2,6 +2,7 @@ Changes
 LICENSE
 Makefile.PL
 MANIFEST
+NOTICE
 README
 typemap
 ZooKeeper.pm

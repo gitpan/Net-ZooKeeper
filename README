@@ -1,5 +1,5 @@
-Apache Net::ZooKeeper Perl extension for Apache ZooKeeper
-=========================================================
+Net::ZooKeeper - Perl extension for Apache ZooKeeper
+====================================================
 
 Net::ZooKeeper provides a Perl interface to the synchronous C API
 of Apache ZooKeeper.  ZooKeeper is coordination service for
@@ -46,7 +46,6 @@ You may also want to apply some of these additional patches to
 the ZooKeeper C API code:
 
 https://issues.apache.org/jira/browse/ZOOKEEPER-262
-https://issues.apache.org/jira/browse/ZOOKEEPER-311
 https://issues.apache.org/jira/browse/ZOOKEEPER-318
 
 This module requires that the multi-threaded version of the
@@ -57,11 +56,13 @@ as well.
 
 COPYRIGHT AND LICENCE
 
-Copyright 2009 Chris Darroch
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
 
   http://www.apache.org/licenses/LICENSE-2.0
 

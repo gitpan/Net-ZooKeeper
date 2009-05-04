@@ -1,10 +1,12 @@
-# Apache Net::ZooKeeper Perl extension for Apache ZooKeeper
+# Net::ZooKeeper - Perl extension for Apache ZooKeeper
 #
-# Copyright 2009 Chris Darroch
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
 #
 #   http://www.apache.org/licenses/LICENSE-2.0
 #
@@ -24,7 +26,7 @@ package Net::ZooKeeper;
 require Exporter;
 require XSLoader;
 
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 
 our @ISA = qw(Exporter);
 
@@ -112,7 +114,7 @@ __END__
 
 =head1 NAME
 
-Apache Net::ZooKeeper Perl extension for Apache ZooKeeper
+Net::ZooKeeper - Perl extension for Apache ZooKeeper
 
 =head1 SYNOPSIS
 
@@ -1236,11 +1238,13 @@ Chris Darroch, E<lt>chrisd@apache.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2009 Chris Darroch
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
 
   http://www.apache.org/licenses/LICENSE-2.0
 

@@ -1,4 +1,4 @@
-Apache Net::ZooKeeper Perl extension for Apache ZooKeeper
+Net::ZooKeeper - Perl extension for Apache ZooKeeper
 
 Revision history
 ================
@@ -49,4 +49,7 @@ Revision history
 
 0.32  Mar 25, 2009
         - initial documentation completed, first public release
+
+0.33  Apr 20, 2009
+	- copyright donated to ASF
 
