@@ -53,3 +53,6 @@ Revision history
 0.33  Apr 20, 2009
 	- copyright donated to ASF
 
+0.34  Jul 14, 2009
+	- support ZooKeeper 3.2.0 release
+
