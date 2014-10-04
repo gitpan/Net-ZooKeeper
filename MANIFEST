@@ -21,3 +21,5 @@ t/45_class.t
 t/50_access.t
 t/60_watch.t
 t/util.pl
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
