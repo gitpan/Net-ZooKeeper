@@ -26,7 +26,7 @@ package Net::ZooKeeper;
 require Exporter;
 require XSLoader;
 
-our $VERSION = '0.37.0';
+our $VERSION = '0.37';
 
 our @ISA = qw(Exporter);
 
