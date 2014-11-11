@@ -4,7 +4,7 @@
       "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "unknown"
    ],
@@ -29,11 +29,19 @@
          "requires" : {
             "ExtUtils::MakeMaker" : "0"
          }
-      },
-      "runtime" : {
-         "requires" : {}
       }
    },
    "release_status" : "stable",
-   "version" : "0.37"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mark-5/p5-net-zookeeper/issues"
+      },
+      "homepage" : "https://github.com/mark-5/p5-net-zookeeper",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/mark-5/p5-net-zookeeper.git",
+         "web" : "https://github.com/mark-5/p5-net-zookeeper"
+      }
+   },
+   "version" : "0.38"
 }
